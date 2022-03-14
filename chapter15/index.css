@@ -1,0 +1,110 @@
+*{ 
+    margin:0px; 
+    padding:0px; 
+} 
+h1{ 
+    font: bold 20px Tahoma; 
+} 
+h2{ 
+    font:bold 14px Tahoma; 
+} 
+header, section, footer, aside, nav, article, hgruop{ 
+        display:block; 
+} 
+
+body{ 
+    width:100%; 
+    display:-moz-box;/* Firefox */ 
+    -moz-box-pack:center;/* Firefox */ 
+    display:-webkit-box;/* Safari, Opera và Chrome */ 
+    -webkit-box-pack:center;/* Safari, Opera và Chrome */ 
+}
+
+#contain{ 
+    max-width: 1000px; 
+    margin: 20px 0px; 
+    display:-moz-box;/* Firefox */ 
+    -moz-box-orient: vertical; 
+    -moz-box-flex: 1; 
+    display:-webkit-box;/* Safari, Opera và Chrome */ 
+    -webkit-box-orient: vertical; 
+    -webkit-box-flex: 1; 
+}
+
+#top_header{ 
+    background: rgba(102, 204, 107, 0.931); 
+    border:3px solid black; 
+    padding:20px;  
+    display:-moz-box;/* Firefox */ 
+    -moz-box-orient:horizontal; 
+    -moz-box-align:center; 
+    display:-webkit-box;/* Safari, Opera và Chrome */ 
+    -webkit-box-orient:horizontal; 
+    -webkit-box-align:center; 
+    color: #fff;
+    
+}
+
+#logo{ 
+    width:165px; 
+    margin-right:20px; 
+} 
+
+#logostt{ 
+    vertical-align:middle      
+} 
+
+#top_menu{ 
+    border:red; 
+    background:blue; 
+    color:white; 
+} 
+
+#top_menu li{ 
+    display:inline-block; 
+    list-style:none; 
+    padding:5px; 
+    font: bold 14px Tahoma; 
+} 
+
+#main{ 
+    display:-moz-box;/* Firefox */ 
+    -moz-box-orient:horizontal; 
+    display:-webkit-box;/* Safari, Opera và Chrome */ 
+    -webkit-box-orient:horizontal; 
+} 
+
+#main_section{ 
+    border: 1px solid blue; 
+    -moz-box-flex:1;/* Firefox */ 
+    -webkit-box-flex:1;/* Safari, Opera và Chrome */ 
+    margin: 20px 20px 20px 0px; 
+    padding:20px; 
+} 
+#side_news{ 
+    border: 1px solid red; 
+    width:220px; 
+    margin:20px 0px; 
+    padding:30px; 
+    background:#66CCCC; 
+} 
+#the_footer{ 
+    text-align:center; 
+    padding:20px; 
+    border-top: 2px solid green; 
+} 
+article{ 
+    background: #FFFBCC; 
+    border: 1px solid red; 
+    padding: 20px; 
+    margin-bottom: 15px; 
+} 
+article footer{ 
+    text-align:right; 
+} 
+.footer {
+    text-align:center; 
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
