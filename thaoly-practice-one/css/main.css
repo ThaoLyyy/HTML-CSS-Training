@@ -1,0 +1,42 @@
+.header {
+  background: url(/images/background.png);
+  min-height: 145vh;
+  padding: 0;
+}
+
+.content h1 {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: Montserrat;
+  font-style: Bold;
+  font-size: 52px;
+  line-height: 63px;
+  line-height: 100%;
+  text-align: Center;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.content p {
+  font-size: 24px;
+  color: #f7f3f2;
+}
+.text-center {
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.btn {
+  color: #f7f3f2;
+  background: #ff4e50;
+  border: #ff4e50;
+  font-weight: bolder;
+  border-radius: 40px;
+  font-size: 10px;
+  padding: 0.7em 1.5em;
+}
+
