@@ -20,11 +20,11 @@ Understand and apply knowledge of HTML5/CSS3 Applying Flexbox in practice Using 
 TIMELINE
 
 DESIGN
-Figma
+  -Figma
 GIT
-git
+  -git
 GETTING STARTED
-Git clone ~ 
-Run Visual Studio Code
-Open project
-Open with live serve ~ ~
+ -Git clone ~ 
+- Run Visual Studio Code
+- Open project
+- Open with live serve ~ ~
