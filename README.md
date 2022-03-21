@@ -25,6 +25,6 @@ GIT
   -git
 GETTING STARTED
  -Git clone ~ 
-- Run Visual Studio Code
-- Open project
-- Open with live serve ~ ~
+ - Run Visual Studio Code
+ - Open project
+ - Open with live serve ~ http://127.0.0.1:5500/index.html ~
