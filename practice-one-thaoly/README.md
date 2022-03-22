@@ -17,7 +17,7 @@
 - EDITOR: Visual studio code
 
 - TIMELINE
-   Estimated time: 17/02-23/03 (5 working days)
+   Estimated time: 17/03-23/03 (5 working days)
 
     + Day 1: Estimate detail, Create tasks, Implement Header.
     + Day 2: Implement Content “Works”,Implement Content “Meet a partner”.
