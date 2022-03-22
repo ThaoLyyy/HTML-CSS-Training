@@ -1,6 +1,6 @@
 - HTML-CSS-Training#Practice - one
 
-- Practice-one 4 working days (March 17, 2022 to March 22, 2022)
+- Practice-one 5 working days (March 17, 2022 to March 23, 2022)
 
 - OVERVIEW In this practice, the facilitator helps you to deepen your understanding of HTML/CSS and helps you improve your front-end skills.
 
@@ -17,7 +17,7 @@
 - EDITOR: Visual studio code
 
 - TIMELINE
-   Estimated time: 25/02-07/03 (5 working days)
+   Estimated time: 17/02-23/03 (5 working days)
 
     + Day 1: Estimate detail, Create tasks, Implement Header.
     + Day 2: Implement Content “Works”,Implement Content “Meet a partner”.
