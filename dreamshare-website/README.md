@@ -35,7 +35,7 @@ Build a Webpage in HTML/CSS.
 ​
 - Clone repo:
 ~~~
-git clone -b feature/practice-1-main git@gitlab.asoft-python.com:g-myle/html-css-training.git
+git clone https://github.com/ThaoLyyy/HTML-CSS-Training/edit/develop/dreamshare-website
 ~~~
 - Go to `dreamshare-website` folder:
 ~~~
