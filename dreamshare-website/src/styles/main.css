@@ -1,14 +1,40 @@
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+* {
+  font-family: Montserrat;
+}
+
 .header {
   min-height: 100vh;
   width: 100%;
+  max-width: 100%;
   background-image: url(/src/assets/images/background.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
 }
 
-nav {
+.nav-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 30px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 40px;
+  color: #fff;
 }
 
 .nav-links {
@@ -18,19 +44,9 @@ nav {
 
 .nav-links ul li {
   font-family: Montserrat;
-  position: relative;
   list-style: none;
-  display: inline-block;
   padding: 8px 9px;
-}
-
-.partner-btn {
-  font-size: 20px;
-  font-weight: 700;
-  color: #fff;
-  padding-left: 90px;
-  padding-top: 30px;
-  font-size: bold;
+  position: relative;
   display: inline-block;
 }
 
@@ -43,7 +59,6 @@ nav {
   color: #fff;
   text-decoration: none;
   font-size: 14px;
-  margin: 1px;
 }
 
 .signup {
@@ -51,21 +66,6 @@ nav {
   padding: 10px 18px;
   border-radius: 40px;
   margin-right: 98px;
-}
-
-.nav-links ul li::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #ff4e50;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-
-.nav-links ul li:hover::after {
-  background: #ff4e50;
-  transition: 0.5s;
 }
 
 .content {
@@ -79,7 +79,6 @@ nav {
 }
 
 .content h1 {
-  font-family: Montserrat;
   font-size: 52px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -113,10 +112,6 @@ nav {
   border: 1px solid #24a5c5;
   background: #24a5c5;
   transition: 0.5s;
-}
-
-.container {
-  font-family: Montserrat;
 }
 
 /* work */
@@ -170,17 +165,20 @@ nav {
   font-size: 14px;
   margin: 138px 15px 0px;
 }
+
 .work-content h2 {
   margin: 18px 0px 10px 0;
   font-size: 24px;
   color: #fff;
 }
+
 .work-content p {
   font-size: 14px;
   color: #e3e3e3;
   font-family: Roboto;
   font-weight: 300;
 }
+
 .work-item-btn {
   font-size: 10px;
   background-color: #ff4e50;
@@ -202,19 +200,12 @@ nav {
   color: #444444;
   font-family: Montserrat;
 }
+
 .partners-container {
   display: flex;
   justify-content: center;
 }
-ul {
-  list-style-type: none;
-  padding: 0px;
-}
 
-img {
-  vertical-align: middle;
-  border-style: none;
-}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -224,8 +215,8 @@ img {
   width: 32px;
   height: 32px;
   object-fit: contain;
-  border: 5px solid #ffffff;
-  box-shadow: 0 0 2px #ffffff;
+  border: 5px solid #fff;
+  box-shadow: 0 0 2px #fff;
   font-size: 12px;
   position: absolute;
   bottom: 0;
@@ -243,9 +234,11 @@ img {
 .partners-container li:nth-child(2) .partner-img img:nth-child(2) {
   background: #19d4ca;
 }
+
 .partners-container li:nth-child(3) .partner-img img:nth-child(2) {
   background: #ffa710;
 }
+
 .partners-container li:nth-child(4) .partner-img img:nth-child(2) {
   background: #667df3;
 }
@@ -271,7 +264,7 @@ img {
 }
 
 .partners-content li i {
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 25px;
   margin-top: 36px;
   padding: 12px 0 32px 0;
@@ -302,7 +295,7 @@ img {
   text-align: center;
 }
 
-.btn.btn-2 {
+.btn-content-box {
   font-family: Montserrat;
   color: #ff4e50;
   border: 2px solid #ff4e50;
@@ -315,23 +308,10 @@ img {
   text-decoration: none;
 }
 
-.btn.btn-2:hover {
+.btn-content-box:hover {
   background: #ff4e50;
   color: #fff;
   border: 2px solid #ff4e50;
-}
-
-@media (max-width: 1000px) {
-  .partners-content li {
-    flex-basis: 100%;
-    margin-bottom: 65px;
-  }
-  .partners-content li:last-child {
-    margin-bottom: 0;
-  }
-  .partners-content li p {
-    padding: 0;
-  }
 }
 
 /* Activity */
@@ -340,10 +320,12 @@ img {
   padding: 20px;
   flex-grow: 1;
 }
+
 .activity-container {
   max-width: 100vw;
   max-width: 100%;
 }
+
 .activity-img {
   width: 100%;
   height: 100%;
@@ -352,14 +334,17 @@ img {
   border: 0.5px;
   border-radius: 4px;
 }
+
 .activity-item {
   overflow: hidden;
   position: relative;
 }
+
 .activity-1 {
   color: #fff;
   text-shadow: 1px 1px 15px #fff;
 }
+
 .activity-item-title {
   position: absolute;
   width: 100%;
@@ -375,8 +360,6 @@ img {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -423,14 +406,14 @@ img {
   margin: 25px 0px 50px;
 }
 
-input {
+.text-contact {
   font-size: 14px;
   border: 1px solid #d4d4d4;
   padding: 14px 160px 10px 15px;
   border-radius: 3px;
 }
 
-.btn-2 {
+.btn-contact {
   font-size: 14px;
   padding: 12px 45px;
   background-color: #ff4e50;
@@ -442,7 +425,7 @@ input {
   text-decoration: none;
 }
 
-.btn-2:hover {
+.btn-contact:hover {
   background: #24a5c5;
   border: 2px solid #24a5c5;
   transition: 0.5s;
@@ -456,12 +439,14 @@ hr {
 .container {
   margin: auto;
 }
+
 .footer-col-title {
   color: #ff4e50;
   font-weight: 400;
   font-size: 14px;
   font-family: Montserrat;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
