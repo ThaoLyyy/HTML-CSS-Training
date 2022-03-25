@@ -1,0 +1,44 @@
+body{
+    margin: 20px 50px;
+}
+.title{
+    color:red;
+}
+.content{
+    color:rgb(50, 104, 205);
+}
+/* desktop first */
+@media only screen and (max-width: 1024px) {
+    .title {
+      color: orange;
+    }
+    .content {
+      color: aqua;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .title {
+      color:rgb(102, 91, 86);
+    }
+    .content {
+      color: green;
+    }
+  }
+
+  /* mobile first */
+  @media only screen and (min-width: 768px) {
+    .title {
+      color: orange;
+    }
+    .content {
+      color: aqua;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .title {
+      color: red;
+    }
+    .content {
+      color: blue;
+    }
+  }
