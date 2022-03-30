@@ -1,0 +1,59 @@
+.grid {
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+
+/* wide */
+.grid.wide {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* Tablet -PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .wide {
+    width: 644px;
+  }
+}
+
+/* PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .wide {
+    width: 984px;
+  }
+}
+
+/* EXAMPLE */
+/* .wrapper {
+    display: grid;
+} */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+    margin: 30px;
+}
+
+/* sap xep cac phan tu */
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+/*#  */
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.item4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
