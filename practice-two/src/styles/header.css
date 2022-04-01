@@ -1,0 +1,156 @@
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background-image: url("../assets/images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 30px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 130px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.nav-links ul li {
+  word-wrap: normal;
+  list-style: none;
+  padding: 8px 9px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-links ul li a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.signup {
+  border: 2px solid var(--white);
+  padding: 10px 18px;
+  border-radius: 40px;
+}
+
+.content {
+  width: 100%;
+  color: var(--white);
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--white);
+  width: 500px;
+}
+
+.content p {
+  font-family: Roboto;
+  margin: 35px 0 47px;
+  font-size: 24px;
+  color: #f7f3f2;
+  font-weight: 300;
+}
+
+.partner-btn {
+  color: var(--white);
+  background: var(--btn-red);
+  border-radius: 40px;
+  border: 1px solid var(--btn-red);
+  padding: 12px 38px;
+  font-size: 14px;
+  font-weight: 700;
+  width: fit-content;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.partner-btn:hover {
+  border: 1px solid var(--btn-hover);
+  background: var(--btn-hover);
+  transition: 0.5s;
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* header */
+  .header {
+    /* width: 768px; */
+    height: 700px;
+    margin: 0 auto;
+    min-height: 0;
+  }
+
+  .navbar-brand {
+    margin-left: 0;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 739px) {
+  /* header */
+  .header {
+    height: 540px;
+    margin: 0 auto;
+    min-height: 0;
+  }
+
+  .nav-flex {
+    flex-direction: column-reverse;
+    gap: 120px;
+  }
+
+  .navbar-brand {
+    margin: 0;
+  }
+
+  .content h1 {
+    font-size: 30px;
+    width: 385px;
+  }
+
+  .content p {
+    font-size: 18px;
+    width: 264px;
+    margin: 35px auto 47px;
+  }
+
+  .content-box:first-child {
+    height: 35px;
+  }
+
+  .partner-btn {
+    display: block;
+    margin: 0 20px;
+    width: auto;
+  }
+}
