@@ -1,0 +1,108 @@
+
+.work-layout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  
+  .text-center {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--title);
+    text-align: center;
+  }
+  
+  .work-title.text-center {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--title);
+    text-align: center;
+    margin: 20px 0px 34px;
+  }
+  
+  .work-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    opacity: 0.5;
+  }
+  
+  .work-item {
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .work-item-step {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    max-width: 100%;
+  }
+  
+  .work-content {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: 14px;
+    margin: 138px 15px 0px;
+  }
+  
+  .work-content h2 {
+    margin: 18px 0px 10px 0;
+    font-size: 24px;
+    color: var(--white);
+  }
+  
+  .work-content p {
+    font-size: 14px;
+    color: #e3e3e3;
+    font-family: Roboto;
+    font-weight: 300;
+  }
+  
+  .work-item-btn {
+    font-size: 10px;
+    background-color: var(--btn-red);
+    border-radius: 40px;
+    border: 2px solid var(--btn-red);
+    font-weight: 400;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 14px 3px;
+  }
+
+  /* Tablet Portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .work-item-step {
+        max-width: 100%;
+        margin: 0;
+      }
+    
+    .work-item {
+    gap: 20px;
+    margin: 0 10px;
+    }
+}
+
+@media (max-width: 739px) {
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-item {
+        margin: 0 auto;
+    }
+
+    .work-item-step {
+        margin: 0 auto 10px;
+        max-width: 100%;
+        height: 240px;
+    }
+
+    .work-content {
+        margin: 0;
+    }
+}
