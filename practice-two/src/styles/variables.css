@@ -8,3 +8,7 @@
   --bg-icon-yellow:#ffa710;
   --bg-icon-blue:#667df3;
 }
+
+* {
+  font-family: Montserrat;
+}

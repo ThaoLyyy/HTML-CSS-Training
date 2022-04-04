@@ -1,8 +1,3 @@
-.container {
-  width: 1200px;
-  max-width: 100%;
-  margin: 0 auto;
-}
 .header {
   min-height: 100vh;
   width: 100%;
@@ -11,6 +6,12 @@
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .nav-flex {
@@ -81,6 +82,18 @@
   font-weight: 300;
 }
 
+.content-box {
+  text-align: center;
+}
+
+.content-box:first-child {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .partner-btn {
   color: var(--white);
   background: var(--btn-red);
@@ -102,9 +115,7 @@
 
 /* Tablet Portrait */
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* header */
   .header {
-    /* width: 768px; */
     height: 700px;
     margin: 0 auto;
     min-height: 0;
@@ -117,7 +128,6 @@
 
 /* Mobile Portrait */
 @media (max-width: 739px) {
-  /* header */
   .header {
     height: 540px;
     margin: 0 auto;
