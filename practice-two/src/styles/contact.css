@@ -1,0 +1,65 @@
+
+.section-contact.text-center {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    /* margin-top: 60px;
+    margin-bottom: 40px; */
+    color: var(--title);
+  }
+  
+  .contact-title p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666666;
+  }
+  
+  .contact-form {
+    text-align: center;
+    font-weight: 700;
+    margin: 25px 0px 50px;
+  }
+  
+  .text-contact {
+    font-size: 14px;
+    border: 1px solid #d4d4d4;
+    padding: 14px 160px 10px 15px;
+    border-radius: 3px;
+  }
+  
+  .btn-contact {
+    font-size: 14px;
+    padding: 12px 45px;
+    background-color: var(--btn-red);
+    color: var(--btn-red);
+    border: 2px solid var(--btn-red);
+    border-radius: 40px;
+    color: var(--white);
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  .btn-contact:hover {
+    background: var(--btn-hover);
+    border: 2px solid var(--btn-hover);
+    transition: 0.5s;
+  }
+  
+  hr {
+    border: 2px solid var(--btn-red);
+  }
+
+  /* Tablet Portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section-contact.text-center{
+    margin: 60px 0 40px;
+  }
+}
+
+  /* Mobile Portrait */
+@media (max-width: 739px) {
+    .btn-contact {
+        width: calc(100% - 40px);
+      }
+}
