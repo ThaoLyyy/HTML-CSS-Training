@@ -148,6 +148,11 @@
 /* Mobile Portrait */
 @media (max-width: 739px) {
 
+  .section-title.text-center {
+    margin: 26px auto 10px;
+    width: 70%;
+  }
+  
   .partners-content {
     flex-direction: column;
   }
