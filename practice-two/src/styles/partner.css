@@ -4,7 +4,7 @@
   font-size: 22px;
   text-align: center;
   margin: 80px 0px 34px;
-  color: var(--title);
+  color: var(--light-black);
 }
 
 .partners-container {
@@ -34,19 +34,19 @@
 }
 
 .partners-container li:nth-child(1) .partner-img img:nth-child(2) {
-  background: var(--btn-red);
+  background: var(--red);
 }
 
 .partners-container li:nth-child(2) .partner-img img:nth-child(2) {
-  background: var(--bg-icon-green);
+  background: var(--light-green);
 }
 
 .partners-container li:nth-child(3) .partner-img img:nth-child(2) {
-  background: var(--bg-icon-yellow);
+  background: var(--light-yellow);
 }
 
 .partners-container li:nth-child(4) .partner-img img:nth-child(2) {
-  background: var(--bg-icon-blue);
+  background: var(--light-blue);
 }
 
 .partners-content {
@@ -90,10 +90,10 @@
 }
 
 .partners-content li p {
-  font-weight: 300;
-  color: #666666;
-  font-size: 14px;
   font-family: Roboto;
+  font-weight: 300;
+  color: var(--dim-gray);
+  font-size: 14px;
   line-height: 14px;
   margin-bottom: 50px;
 }
@@ -111,8 +111,8 @@
 }
 
 .btn-content-box {
-  color: var(--btn-red);
-  border: 2px solid var(--btn-red);
+  color: var(--red);
+  border: 2px solid var(--red);
   font-weight: bolder;
   border-radius: 40px;
   font-size: 14px;
@@ -123,9 +123,9 @@
 }
 
 .btn-content-box:hover {
-  background: var(--btn-red);
+  background: var(--red);
   color: var(--white);
-  border: 2px solid var(--btn-red);
+  border: 2px solid var(--red);
 }
 
 /* Tablet Portrait */
