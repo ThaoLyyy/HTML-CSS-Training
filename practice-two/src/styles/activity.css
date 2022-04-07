@@ -1,7 +1,7 @@
 .activity p {
-  margin-top: 75px;
-  padding: 20px;
-  flex-grow: 1;
+  padding: 0 55px;
+  margin: 35px 0 33px;
+  color: var(--light-black);
 }
 
 .activity-container {
@@ -50,10 +50,10 @@
 
 /* .activity-1 {
   color: var(--white);
-  text-shadow: 1px 1px 15px var(--white);
+  text-shadow: 1px 1px 15px var(--black);
 } */
 
-.activity-item-title.activity-1 {
+.activity-item-title.activity-1{
   position: absolute;
   width: 70%;
   color: var(--white);
@@ -66,12 +66,13 @@
   text-decoration: none;
   text-transform: capitalize;
   text-shadow: 1px 1px 15px var(--black);
+
 }
 
 .flex-activity {
   margin: 15px 80px 30px;
   text-align: center;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .flex-container {
@@ -88,6 +89,10 @@
 
 /* Tablet Portrait */
 @media (min-width: 768px) and (max-width: 1023px) {
+  .activity p {
+    margin: 94px 0 35px;
+  }
+
   .flex-activity {
     margin: 0;
   }
@@ -124,5 +129,4 @@
   .activity-item.img-large {
     width: 300px;
   }
-  
 }
