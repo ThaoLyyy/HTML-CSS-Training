@@ -8,6 +8,12 @@
   --light-green: #19d4ca;
   --light-yellow: #ffa710;
   --light-blue: #667df3;
+  --gray:#cccccc;
+  --light-gray:#d4d4d4;
+  --dim-gray:#666666;
+  --dark-gray:#999999;
+  --White-gray:#e3e3e3;
+  --ghost-white: #f7f3f2;
 }
 
 * {
