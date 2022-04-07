@@ -1,12 +1,13 @@
 :root {
   --background-color: #f2f2f2;
   --white: #ffffff;
-  --btn-red: #ff4e50;
-  --btn-hover: #24a5c5;
-  --title: #444444;
-  --bg-icon-green:#19d4ca;
-  --bg-icon-yellow:#ffa710;
-  --bg-icon-blue:#667df3;
+  --red: #ff4e50;
+  --black:#000;
+  --light-turquoise: #24a5c5;
+  --light-black: #444444;
+  --light-green: #19d4ca;
+  --light-yellow: #ffa710;
+  --light-blue: #667df3;
 }
 
 * {
