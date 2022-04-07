@@ -48,12 +48,12 @@
   max-width: 100%;
 }
 
-.activity-1 {
+/* .activity-1 {
   color: var(--white);
   text-shadow: 1px 1px 15px var(--white);
-}
+} */
 
-.activity-item-title {
+.activity-item-title.activity-1 {
   position: absolute;
   width: 70%;
   color: var(--white);
@@ -65,6 +65,7 @@
   font-weight: 700;
   text-decoration: none;
   text-transform: capitalize;
+  text-shadow: 1px 1px 15px var(--black);
 }
 
 .flex-activity {
