@@ -37,13 +37,13 @@
   color: var(--white);
   text-decoration: none;
   font-weight: 300;
-  color: #999999;
+  color: var(--dark-gray);
   display: block;
   transition: all 0.3s ease;
 }
 
 .footer-col ul li a:hover {
-  color: var(--title);
+  color: var(--light-black);
   /* padding-left: 8px; */
 }
 
@@ -56,7 +56,7 @@
 .footer-col-bold {
   font-weight: 700;
   font-size: 14px;
-  color: #cccccc;
+  color: var(--gray);
   font-weight: 700;
   font-size: 10px;
   margin-left: 36px;
