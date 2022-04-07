@@ -1,3 +1,4 @@
+
 .header {
   min-height: 100vh;
   width: 100%;
@@ -7,7 +8,6 @@
   background-size: cover;
   position: relative;
 }
-
 .container {
   width: 1200px;
   max-width: 100%;
@@ -56,7 +56,8 @@
 
 .signup {
   border: 2px solid var(--white);
-  padding: 10px 18px;
+  /* padding: 10px 18px; */
+  padding: 10px 17px 9px 18px;
   border-radius: 40px;
 }
 
@@ -78,12 +79,8 @@
   font-family: Roboto;
   margin: 35px 0 47px;
   font-size: 24px;
-  color: #f7f3f2;
+  color: var(--ghost-white);
   font-weight: 300;
-}
-
-.content-box {
-  text-align: center;
 }
 
 .content-box:first-child {
@@ -96,9 +93,9 @@
 
 .partner-btn {
   color: var(--white);
-  background: var(--btn-red);
+  background: var(--red);
   border-radius: 40px;
-  border: 1px solid var(--btn-red);
+  border: 1px solid var(--red);
   padding: 12px 38px;
   font-size: 14px;
   font-weight: 700;
@@ -108,14 +105,16 @@
 }
 
 .partner-btn:hover {
-  border: 1px solid var(--btn-hover);
-  background: var(--btn-hover);
+  border: 1px solid var(--light-turquoise);
+  background: var(--light-turquoise);
   transition: 0.5s;
 }
 
 /* Tablet Portrait */
 @media (min-width: 768px) and (max-width: 1023px) {
+  /* header */
   .header {
+    /* width: 768px; */
     height: 700px;
     margin: 0 auto;
     min-height: 0;
@@ -128,6 +127,7 @@
 
 /* Mobile Portrait */
 @media (max-width: 739px) {
+  /* header */
   .header {
     height: 540px;
     margin: 0 auto;
