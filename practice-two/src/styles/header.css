@@ -127,7 +127,7 @@
 
 /* Mobile Portrait */
 @media (max-width: 739px) {
-  /* header */
+
   .header {
     height: 540px;
     margin: 0 auto;
@@ -143,7 +143,7 @@
     margin: 0;
   }
 
-  .content h1 {
+  .content-title.text-uppercase {
     font-size: 30px;
     width: 385px;
   }
