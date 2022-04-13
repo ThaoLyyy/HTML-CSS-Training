@@ -1,5 +1,4 @@
-
-.header {
+.navbar-expand {
   min-height: 100vh;
   width: 100%;
   max-width: 100%;
@@ -20,12 +19,12 @@
   align-items: center;
   flex-wrap: nowrap;
   padding: 30px;
+  font-size: 20px;
 }
 
 .navbar-brand {
-  font-weight: 700;
   font-size: 20px;
-  margin-left: 130px;
+  margin-left: 110px;
   color: var(--white);
   cursor: pointer;
 }
@@ -35,6 +34,8 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  font-weight: 400;
+  margin: 0 140px;
 }
 
 .nav-links ul li {
@@ -42,6 +43,12 @@
   list-style: none;
   padding: 8px 9px;
 }
+
+/* .nav-links ul li:hover{
+  border: 1px solid var(--red);
+  background: var(--red);
+  transition: 0.5s;
+} */
 
 .text-uppercase {
   text-transform: uppercase;
@@ -56,7 +63,6 @@
 
 .signup {
   border: 2px solid var(--white);
-  /* padding: 10px 18px; */
   padding: 10px 17px 9px 18px;
   border-radius: 40px;
 }
@@ -79,7 +85,7 @@
   font-family: Roboto;
   margin: 35px 0 47px;
   font-size: 24px;
-  color: var(--ghost-white);
+  color: var(--pale-white);
   font-weight: 300;
 }
 
@@ -110,11 +116,20 @@
   transition: 0.5s;
 }
 
+/* @media only screen and (min-width: 1200px) {
+
+  .nav-flex {
+    padding: 40px;
+  }
+  
+  .navbar-brand {
+    margin-left: 0 auto;
+  }
+} */
+
 /* Tablet Portrait */
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* header */
-  .header {
-    /* width: 768px; */
+  .navbar-expand {
     height: 700px;
     margin: 0 auto;
     min-height: 0;
@@ -123,12 +138,19 @@
   .navbar-brand {
     margin-left: 0;
   }
+
+  .nav-flex{
+    padding: 45px;
+  }
+
+  .nav-links ul{
+    margin: 0;
+  }
 }
 
 /* Mobile Portrait */
 @media (max-width: 739px) {
-
-  .header {
+  .navbar-expand {
     height: 540px;
     margin: 0 auto;
     min-height: 0;
@@ -136,10 +158,14 @@
 
   .nav-flex {
     flex-direction: column-reverse;
-    gap: 120px;
+    gap: 130px;
   }
 
   .navbar-brand {
+    margin: 0;
+  }
+
+  .nav-links ul {
     margin: 0;
   }
 
