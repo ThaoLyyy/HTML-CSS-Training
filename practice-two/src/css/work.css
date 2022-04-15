@@ -13,14 +13,6 @@
   margin: 20px 0px 34px;
 }
 
-/* .work__title .text-center {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--light-black);
-  text-align: center;
-  margin: 20px 0px 34px;
-} */
-
 .work__container {
   display: flex;
   justify-content: center;
