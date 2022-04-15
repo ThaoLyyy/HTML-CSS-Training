@@ -9,257 +9,270 @@
   </head>
 
   <body>
+
     <!-- HEADER -->
     <header class="main-header">
       <div class="container">
         <nav class="main-nav">
           <a class="main-nav__brand" href="#">dreamshare</a>
-            <ul class="main-nav__listItem">
-              <li class="main-nav__item"><a class="login" href="#">Log in</a></li>
-              <li class="main-nav__item"><a class="signup" href="#">Sign up</a></li>
-            </ul>
+          <ul class="main-nav__listItem">
+            <li class="main-nav__item"><a class="login" href="#">Log in</a></li>
+            <li class="main-nav__item">
+              <a class="signup" href="#">Sign up</a>
+            </li>
+          </ul>
         </nav>
         <div class="main-header__content">
-            <h1 class="main-header__title">share your holiday dream</h1>
-            <p class="main-header__desc">
-              And find the perfect partner to fulfill it
-            </p>
-            <a href="#" class="btn btn-info"> Find your holiday partner </a>
+          <h1 class="main-header__title">share your holiday dream</h1>
+          <p class="main-header__desc">
+            And find the perfect partner to fulfill it
+          </p>
+          <a href="#" class="btn btn-info"> Find your holiday partner </a>
         </div>
       </div>
     </header>
     <!-- END HEADER -->
 
-    <!-- Work -->
-    <section class="work">
-      <div class="work-layout">
-        <div class="section-work-title">
-          <p class="work text-center">How Dreamshare works?</p>
-          <div class="work-container">
-            <div class="work-item">
-              <img
-                src="./assets/images/works-item/typing.png"
-                alt="typing"
-                class="work-item-step"
-              />
-              <div class="work-content">
-                <a href="#" class="work-item-btn">Step 1</a>
-                <h2>Sed leo enim, condimentum</h2>
-                <p>
-                  Quisque libero libero, dictum non turpis in, luctus semper
-                  lorem. Donec rhoncus a leo sit amet facilisis.
-                </p>
-              </div>
-            </div>
-            <div class="work-item">
-              <img
-                src="./assets/images/works-item/drive.png"
-                alt="drive"
-                class="work-item-step"
-              />
-              <div class="work-content">
-                <a href="#" class="work-item-btn">Step 2</a>
-                <h2>Morbi velit risus</h2>
-                <p>
-                  Nulla venenatis tempor dui in molestie. Nulla quis dictum
-                  purus, sit amet porttitor est.
-                </p>
-              </div>
-            </div>
-            <div class="work-item">
-              <img
-                src="./assets/images/works-item/beach.png"
-                alt="beach"
-                class="work-item-step"
-              />
-              <div class="work-content">
-                <a href="#" class="work-item-btn">Step 3</a>
-                <h2>Sed leo enim, condimentum</h2>
-                <p>
-                  Quisque libero libero, dictum non turpis in, luctus semper
-                  lorem. Donec rhoncus a leo sit amet facilisis.
-                </p>
-              </div>
-            </div>
+    <!-- WORKS -->
+    <section class="work__section">
+      <p class="work__title--text">How Dreamshare works?</p>
+      <div class="work__container">
+        <div class="work__item">
+          <div class="work__step">
+            <img
+              class="work__step-img"
+              src="./assets/images/works-item/typing.png"
+              alt="typing"
+            />
+          </div>
+
+          <div class="work__content">
+            <a href="#" class="btn btn-step">Step 1</a>
+            <h2 class="work__content-act">Sed leo enim, condimentum</h2>
+            <p class="work__content-desc">
+              Quisque libero libero, dictum non turpis in, luctus semper lorem.
+              Donec rhoncus a leo sit amet facilisis.
+            </p>
+          </div>
+        </div>
+        <div class="work__item">
+          <div class="work__step">
+            <img
+              class="work__step-img"
+              src="./assets/images/works-item/drive.png"
+              alt="drive"
+            />
+          </div>
+
+          <div class="work__content">
+            <a href="#" class="btn btn-step">Step 2</a>
+            <h2 class="work__content-act">Morbi velit risus</h2>
+            <p class="work__content-desc">
+              Nulla venenatis tempor dui in molestie. Nulla quis dictum purus,
+              sit amet porttitor est.
+            </p>
+          </div>
+        </div>
+        <div class="work__item">
+          <div class="work__step">
+            <img
+              class="work__step-img"
+              src="./assets/images/works-item/beach.png"
+              alt="beach"
+            />
+          </div>
+
+          <div class="work__content">
+            <a href="#" class="btn btn-step">Step 3</a>
+            <h2 class="work__content-act">Sed leo enim, condimentum</h2>
+            <p class="work__content-desc">
+              Quisque libero libero, dictum non turpis in, luctus semper lorem.
+              Donec rhoncus a leo sit amet facilisis.
+            </p>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Work -->
+    <!-- END WORKS -->
 
-    <!-- Partners -->
-    <section class="partners-area">
-      <p class="section-title text-center">
-        Meet a partner for your best holiday
-      </p>
-      <div class="partners-container">
-        <ul class="partners-content">
-          <li>
-            <div class="partner-img">
+    <!-- PARTNERS -->
+    <section class="partners__section">
+      <p class="partners__title-text">Meet a partner for your best holiday</p>
+      <div class="partners__container">
+        <ul class="partners__content">
+          <li class="partners__content-info">
+            <div class="partner__img">
               <img
                 src="./assets/images/partners/bradley-hunter.png"
                 alt="bradley-hunter"
+                class="partner__img-avatar"
               />
               <img
                 src="./assets/images/partner-icon/music.png"
                 alt="music"
-                class="icon-avatar"
+                class="partner__img-icon"
               />
             </div>
-            <h3>Bradley Hunter</h3>
-            <p>Based in Chicago. I love playing tennis and loud music.</p>
+            <h3 class="partners__content-info-name">Bradley Hunter</h3>
+            <p class="partners__content-info-desc">
+              Based in Chicago. I love playing tennis and loud music.
+            </p>
           </li>
-          <li>
-            <div class="partner-img">
+          <li class="partners__content-info">
+            <div class="partner__img">
               <img
                 src="./assets/images/partners/marie-bennentt.png"
-                alt="marie-benentt"
-                class="img-fluid"
+                alt="marie-benent"
+                class="partner__img-avatar"
               />
               <img
                 src="./assets/images/partner-icon/brush.png"
                 alt="brush"
-                class="icon-avatar"
+                class="partner__img-icon"
               />
             </div>
-            <h3>Marie Benett</h3>
-            <p>
+            <h3 class="partners__content-info-name">Marie Benett</h3>
+            <p class="partners__content-info-desc">
               Currently living in Colarado, love of art, languages and
               travelling.
             </p>
           </li>
-          <li>
-            <div class="partner-img">
+          <li class="partners__content-info">
+            <div class="partner__img">
               <img
                 src="./assets/images/partners/diana-wells.png"
                 alt="diana-wells"
-                class="img-fluid"
+                class="partner__img-avatar"
               />
               <img
                 src="./assets/images/partner-icon/camera.png"
                 alt="camera"
-                class="icon-avatar"
+                class="partner__img-icon"
               />
             </div>
-            <h3>Diana Wells</h3>
-            <p>
+            <h3 class="partners__content-info-name">Diana Wells</h3>
+            <p class="partners__content-info-desc">
               Living in Athens, Greece. I love black and white classics,
               chillout music and green tea.
             </p>
           </li>
-          <li>
-            <div class="partner-img">
+          <li class="partners__content-info">
+            <div class="partner__img">
               <img
                 src="./assets/images/partners/christopher-pierce.png"
                 alt="christopher-pierce"
-                class="img-fluid"
+                class="partner__img-avatar"
               />
               <img
                 src="./assets/images/partner-icon/airplane.png"
                 alt="airplane"
-                class="icon-avatar"
+                class="partner__img-icon"
               />
             </div>
-            <h3>Christopher Pierce</h3>
-            <p>
+            <h3 class="partners__content-info-name">Christopher Pierce</h3>
+            <p class="partners__content-info-desc">
               Star Wars fanatic. I have a persistent enthusiasm to create new
               things.
             </p>
           </li>
         </ul>
       </div>
-      <div class="content-box">
-        <a href="#" class="btn-content-box">See other partners</a>
-      </div>
+      <!-- <div class="content-box"> -->
+      <button href="#" class="btn btn-info">See other partners</button>
+      <!-- </div> -->
     </section>
-    <!-- End Partners -->
+    <!-- END PARTNERS -->
 
-    <!-- Activity -->
-    <section class="activity">
-      <div class="activity-title">
-        <p class="section-activity text-center">
-          Discover holiday activity ideas
-        </p>
-        <div class="flex-activity">
-          <div class="flex-container">
-            <div class="flex-row">
-              <div class="activity-item img-small">
+    <!-- ACTIVITY -->
+    <section class="activity__section">
+      <p class="activity__title-text">Discover holiday activity ideas</p>
+      <div class="activity__container">
+        <div class="activity__content">
+          <div class="activity__item">
+            <div class="activity__item-img-small">
+              <div class="activity__img">
                 <img
-                  src="./assets/images/activity/sports and activis.png"
-                  alt="sports and activis"
-                  class="activity-item1"
+                  src="./assets/images/activity/sports-and-activis.png"
+                  alt="sports and activity"
+                  class="activity__img-style-1"
                 />
-                <h4 class="activity-item-title activity-1">
-                  sports and activis
-                </h4>
               </div>
-              <div class="activity-item img-small">
-                <img
-                  src="./assets/images/activity/wellness and health.png"
-                  alt="wellness and health"
-                  class="activity-item1"
-                />
-                <h4 class="activity-item-title activity-1">
-                  wellness and health
-                </h4>
-              </div>
-              <div class="activity-item img-small">
-                <img
-                  src="./assets/images/activity/extreme sports.png"
-                  alt="extreme sports"
-                  class="activity-item1"
-                />
-                <h4 class="activity-item-title activity-1">
-                  extreme sports and expeditions
-                </h4>
-              </div>
+
+              <h4 class="activity__img-title">sports and activis</h4>
             </div>
+            <div class="activity__item-img-small">
+              <div class="activity__img">
+                <img
+                  src="./assets/images/activity/wellness-and-health.png"
+                  alt="wellness and health"
+                  class="activity__img-style-1"
+                />
+              </div>
 
-            <div class="flex-row">
-              <div class="activity-item img-small">
+              <h4 class="activity__img-title">wellness and health</h4>
+            </div>
+            <div class="activity__item-img-small">
+              <div class="activity__img">
+                <img
+                  src="./assets/images/activity/extreme-sports.png"
+                  alt="extreme sports"
+                  class="activity__img-style-1"
+                />
+              </div>
+              <h4 class="activity__img-title">
+                extreme sports and expeditions
+              </h4>
+            </div>
+          </div>
+
+          <div class="activity__item">
+            <div class="activity__item-img-small">
+              <div class="activity__img">
                 <img
                   src="./assets/images/activity/games.png"
                   alt="games"
-                  class="activity-item2"
+                  class="activity__img-style-1"
                 />
-                <h4 class="activity-item-title activity-1">games</h4>
               </div>
-              <div class="activity-item img-large">
-                <img
-                  src="./assets/images/activity/culture and education.png"
-                  alt="culture and education"
-                  class="activity-item2"
-                />
-                <h4 class="activity-item-title activity-1">
-                  culture and education
-                </h4>
-              </div>
+              <h4 class="activity__img-title">games</h4>
             </div>
-            <div class="flex-row">
-              <div class="activity-item img-large">
+            <div class="activity__item-img-large">
+              <div class="activity__img">
                 <img
-                  src="./assets/images/activity/enjomet and relaxation.png"
-                  alt="enjomet and relaxation"
-                  class="activity-item3"
+                  src="./assets/images/activity/culture-and-education.png"
+                  alt="culture and education"
+                  class="activity__img-style-2"
                 />
-                <h4 class="activity-item-title activity-1">
-                  enjomet and relaxation
-                </h4>
               </div>
-              <div class="activity-item img-small">
+              <h4 class="activity__img-title">culture and education</h4>
+            </div>
+          </div>
+          <div class="activity__item">
+            <div class="activity__item-img-large">
+              <div class="activity__img">
+                <img
+                  src="./assets/images/activity/enjomet-and-relaxation.png"
+                  alt="enjomet and relaxation"
+                  class="activity__img-style-2"
+                />
+              </div>
+              <h4 class="activity__img-title">enjomet and relaxation</h4>
+            </div>
+            <div class="activity__item-img-small">
+              <div class="activity__img">
                 <img
                   src="./assets/images/activity/trevelling.png"
                   alt="trevelling"
-                  class="activity-item3"
+                  class="activity__img-style-1"
                 />
-                <h4 class="activity-item-title activity-1">trevelling</h4>
               </div>
+              <h4 class="activity__img-title">trevelling</h4>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Activity -->
+    <!-- END ACTIVITY -->
 
     <!-- Contact -->
     <section class="contact">
@@ -288,9 +301,9 @@
           <div class="footer-col">
             <h2 class="footer-col-title text-uppercase">dreamshare</h2>
           </div>
-          <div class="footer-col">
+          <div class="footer__link">
             <h4>Company</h4>
-            <ul>
+            <ul class="footer__list">
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Press</a></li>
