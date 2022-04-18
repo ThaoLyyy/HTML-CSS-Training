@@ -5,8 +5,8 @@
   margin-top: 80px;
 }
 
-.work__title--text {
-  font-size: 22px;
+.work__title-text {
+  font-size: var(--font-size-2xlg);
   font-weight: 700;
   color: var(--light-black);
   text-align: center;
@@ -37,19 +37,19 @@
   position: absolute;
   top: 100px;
   left: 20px;
-  font-size: 14px;
+  font-size: var(--font-size-xmd);
   margin: 138px 15px 0px;
 }
 
 .work__content-act {
   margin: 18px 0px 10px 0;
-  font-size: 24px;
+  font-size: var(--font-size-2xl);
   color: var(--white);
 }
 
 .work__content-desc {
   font-family: Roboto;
-  font-size: 14px;
+  font-size: var(--font-size-xmd);
   color: var(--gray-White);
   font-weight: 300;
   margin-top: 20px;
@@ -63,13 +63,16 @@
   border: 2px solid var(--red);
   font-weight: 400;
   color: var(--white);
-  /* text-decoration: none; */
   text-transform: uppercase;
   padding: 5px 14px 3px;
 }
 
 /* Tablet Portrait */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
+  .work__title-text {
+    margin: 14px 0px 15px;
+  }
+
   .work__item {
     gap: 20px;
     margin: 0 10px;
@@ -97,9 +100,11 @@
   }
 }
 
-@media (max-width: 739px) {
+@media screen and (max-width: 739px) {
   .work__container {
     flex-direction: column;
+    display: flex;
+    gap: 10px;
   }
 
   .work__item {
@@ -119,6 +124,8 @@
   .work__content {
     margin: 0 auto;
     width: 78%;
+    top: 100px;
+    left: 20px;
   }
 
   .work__content-act {

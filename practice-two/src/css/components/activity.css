@@ -1,0 +1,148 @@
+.activity__section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.activity__title-text {
+  font-size: var(--font-size-2xlg);
+  font-weight: 700;
+  color: var(--light-black);
+  text-align: center;
+  margin: 20px 0px 34px;
+}
+
+.activity__content {
+  max-width: 100vw;
+  max-width: 100%;
+}
+
+.activity-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0.8;
+  border: 0.5px;
+  border-radius: 4px;
+}
+
+.activity__item {
+  position: relative;
+  justify-content: center;
+  margin: 10px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.activity__item-img-small {
+  position: relative;
+  width: 300px;
+}
+
+.activity__item-img-large {
+  width: 620px;
+  position: relative;
+}
+
+.activity__img-style-1 {
+  width: 100%;
+  height: 310px;
+}
+
+.activity__img-style-2 {
+  width: 100%;
+  height: 310px;
+}
+
+.activity__img {
+  max-width: 100%;
+}
+
+.activity__img-title {
+  position: absolute;
+  width: 70%;
+  color: var(--white);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0;
+  font-size: var(--font-size-2xlg);
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 15px var(--black);
+}
+
+.activity__container {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.activity__content {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Tablet Portrait */
+@media screen and (max-width: 1023px) {
+  .activity__section {
+    margin-top: 0;
+  }
+
+  .activity__title-text {
+    margin: 94px 0 35px;
+  }
+
+  .activity__container {
+    margin: 0 5px;
+  }
+}
+
+/* Mobile Portrait */
+@media screen and (max-width: 739px) {
+  .activity__section {
+    margin-top: 0;
+  }
+
+  .activity__title-text {
+    margin: 25px auto 33px;
+    width: 70%;
+  }
+
+  .activity__container {
+    margin: 0 auto;
+  }
+
+  .activity__content {
+    flex-direction: column;
+  }
+
+  .activity__item {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    margin: 5px 0;
+  }
+
+  .activity__img {
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .activity__img-style-1 {
+    height: 120px;
+  }
+
+  .activity__img-style-2 {
+    height: 120px;
+  }
+
+  .activity__item-img-large {
+    width: 300px;
+  }
+}

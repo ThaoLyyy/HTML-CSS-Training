@@ -8,7 +8,7 @@
 
 .partners__title-text {
   font-weight: 700;
-  font-size: 22px;
+  font-size: var(--font-size-2xlg);
   text-align: center;
   margin: 80px 0px 34px;
   color: var(--light-black);
@@ -30,7 +30,7 @@
   object-fit: contain;
   border: 5px solid var(--white);
   box-shadow: 0 0 2px var(--white);
-  font-size: 12px;
+  font-size: var(--font-size-sm);
   position: absolute;
   bottom: 0;
   right: 48px;
@@ -88,7 +88,7 @@
 
 .partners__content-info-name {
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: var(--font-size-xmd);
   font-weight: 700;
   margin: 14px 19px 12px;
   display: block;
@@ -99,7 +99,7 @@
   font-family: Roboto;
   font-weight: 300;
   color: var(--dim-gray);
-  font-size: 14px;
+  font-size: var(--font-size-xmd);
   line-height: 14px;
   margin: 0 10px 50px;
 }
@@ -112,25 +112,27 @@
   transform: translate(-50%, -50%);
 }
 
-.btn.btn-info {
+.btn.btn-see {
   color: var(--red);
-  border: 2px solid var(--red);
   font-weight: bolder;
-  border-radius: 40px;
-  font-size: 14px;
+  font-size: var(--font-size-xmd);
+  border: 2px solid var(--red);
   padding: 12px 43px;
-  font-weight: 700;
   background: var(--white);
+  margin: auto;
 }
 
-.btn.btn-info:hover {
+.btn.btn-see:hover {
   background: var(--red);
   color: var(--white);
   border: 2px solid var(--red);
 }
 
 /* Tablet Portrait */
-@media (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
+  .partners__section {
+    margin-top: 0;
+  }
   .partners__content {
     width: 65%;
   }
@@ -150,9 +152,9 @@
 }
 
 /* Mobile Portrait */
-@media (max-width: 739px) {
-  .section-title.text-center {
-    margin: 26px auto 10px;
+@media screen and (max-width: 739px) {
+  .partners__title-text {
+    margin: 36px auto 11px;
     width: 70%;
   }
 
@@ -178,7 +180,7 @@
     right: 0;
   }
 
-  .btn.btn-info {
+  .btn.btn-see {
     display: block;
     margin: 20px;
   }

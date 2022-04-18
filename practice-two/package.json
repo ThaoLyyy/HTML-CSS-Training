@@ -1,0 +1,14 @@
+{
+  "name": "practice-two",
+  "version": "1.0.0",
+  "description": "- This document provides a detailed estimate of the HTML/CSS practice. ## Topic name - practice-two ## TECHNICAL     - HTML5/CSS3      - RESPONSIVE     - HTML Inspector ## TARGET     - Improve more ability picking HTML tags and styling solutions     - More practice with CSS selectors     - Learn how to make a responsive website     - Apply knowledge to responsive practice one design     - Used media queries for popular screen size",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thaolyy",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
