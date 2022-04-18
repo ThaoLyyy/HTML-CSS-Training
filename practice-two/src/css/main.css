@@ -6,7 +6,8 @@
 
 /* commons */
 @import url("./commons/variables.css");
-@import url("./commons/fonts.css");
+
+@import url("./fonts.css");
 
 /* component */
 @import url("./components/header.css");
