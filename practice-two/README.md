@@ -4,8 +4,9 @@
 # Topic name
 - practice-two
 ## TECHNICAL
-- HTML5/CSS3 
-- RESPONSIVE
+- HTML5
+- CSS 3 
+- Flexbox
 # TARGET
 - Improve more ability picking HTML tags and styling solutions
 - More practice with CSS selectors
@@ -13,25 +14,35 @@
 - Apply knowledge to responsive practice one design
 - Used media queries for popular screen size
 # FOLDER STRUCTURE
+```
 |-- src
     |-- assets
         |-- fonts
         |-- images
     |-- css
+        |-- commons
+        |-- component
+        |-- global.css
+        |-- main.css
+        |-- reset.css
     |-- javascript    
     |-- index.html
 |-- .editorconfig
 |-- .gitignore
 |-- package.json
 |-- README.md
+```
+
 # SECTION BREAKPOINT
 - Mobile: @media screen and (max-width: 739px)    
 - Tablet: @media screen and (max-width: 1023px)    
 - Desktop: @media screen and (max-width: 1440px)
+
 # SUPPORTED BROWSER
 - Google Chrome
 - Microsoft Edge
-- Mozilla Firefox   
+- Mozilla Firefox
+    
 # EDITOR
 - Using tools Visual Studio Code
 # TIMELINE
@@ -43,25 +54,42 @@
     + Day 5: Implement Content “Activity ideas” section(tablet + mobile), Implement Contact “Crate activity”section (tablet + mobile)
     + Day 6:Implement Footer section (tablet + mobile), Fix issues/review comments
 # TEAM SIZE
-- 1 develop
+- 1 dev
 ## Requirements
-- Work fine on Chrome browser latest version.
+- Work fine on Chrome browser latest version.(Chrome, Firefox, MS Edge)
 - Use the right HTML tags.
 - Apply Flexbox.
+- Getting the code to work cross-browsers latest version 
+
 ## DESIGN
    [Figma](https://www.figma.com/file/adbrgIeRgwEIbmDezkuQTH8D/dreamshare-website-template-areto?node-id=0%3A2)
+   
+
 ## SETUP & RUN PROJECT
 
-```
 - Clone repository: 
+```
 git clone https://github.com/ThaoLyyy/HTML-CSS-Training.git
-- Checkout branch: 
+```
+- Checkout branch:
+``` 
 git Checkout develop
-- Open cmd and install package
-npm install --save-dev parcel
-- Run project
-npx parcel src/index.html
-- Open in browser: http://localhost:1234
+```
+- Open Folder:
+```
+cd HTML-CSS-Training/practice-two
+```
+- Install packages dependencies :
+```
+  npm install
+```
+- Run Webpage:
+```
+npm start
+```
+- Open in browser:
+```
+[http://localhost:1234](http://localhost:1234)
 ```
 
 ## AUTHOR
