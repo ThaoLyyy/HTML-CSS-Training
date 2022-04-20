@@ -81,7 +81,7 @@ cd HTML-CSS-Training/practice-two
 ```
 - Install packages dependencies :
 ```
-  npm install
+npm install
 ```
 - Run Webpage:
 ```
@@ -89,7 +89,7 @@ npm start
 ```
 - Open in browser:
 ```
-[http://localhost:1234]
+[http://localhost:1234](http://localhost:1234)
 ```
 
 ## AUTHOR
