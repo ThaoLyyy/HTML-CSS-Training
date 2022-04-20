@@ -1,5 +1,5 @@
 /* rest */
-@import url("./bases/reset.css");
+@import url("./reset.css");
 
 /* global */
 @import url("./global.css");
@@ -7,7 +7,7 @@
 /* commons */
 @import url("./commons/variables.css");
 
-@import url("./fonts.css");
+@import url("./commons/fonts.css");
 
 /* component */
 @import url("./components/header.css");

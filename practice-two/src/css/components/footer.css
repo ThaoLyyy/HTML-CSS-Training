@@ -1,6 +1,7 @@
-.footer__block {
+.footer {
   background-color: var(--white);
   padding: 38px 0;
+  border-top: 2px solid var(--red);
 }
 
 .footer__row {

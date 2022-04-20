@@ -51,10 +51,6 @@
   transition: 0.5s;
 }
 
-hr {
-  border: 2px solid var(--red);
-}
-
 /* Tablet Portrait */
 @media screen and (max-width: 1023px) {
   .contact__section {

@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 
-.main-nav__listItem {
+.main-nav__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,7 +134,7 @@
     margin-left: 0;
   }
 
-  .main-nav__listItem {
+  .main-nav__list {
     margin: 0;
   }
 }
@@ -156,7 +156,7 @@
     margin: 0;
   }
 
-  .main-nav__listItem {
+  .main-nav__list {
     margin: 0;
   }
 
