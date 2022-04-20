@@ -1,6 +1,6 @@
 # PRACTICE HTML/CSS 2
 # OVERVIEW
-- This document provides a detailed estimate of the HTML/CSS practice.
+- Design a responsive website
 # Topic name
 - practice-two
 ## TECHNICAL
@@ -77,7 +77,7 @@ git Checkout develop
 ```
 - Open Folder:
 ```
-cd HTML-CSS-Training/practice-two
+cd practice-two
 ```
 - Install packages dependencies :
 ```
