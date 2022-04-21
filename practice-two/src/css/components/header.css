@@ -94,13 +94,6 @@
   letter-spacing: 1px;
 }
 
-.btn {
-  text-decoration: none;
-  border-radius: 40px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
 .btn.btn-info {
   color: var(--white);
   background: var(--red);
