@@ -41,6 +41,7 @@ git clone https://github.com/ThaoLyyy/HTML-CSS-Training/tree/develop/dreamshare-
 ~~~
 - Run Live serve
 ~~~
-- Open with live serve 
+- Open with live serve
+
 ~ http://127.0.0.1:5500/index.html ~
-~~~
+
