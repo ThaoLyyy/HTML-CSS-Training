@@ -182,6 +182,7 @@
 
   .btn.btn-see {
     display: block;
-    margin: 20px;
+    margin: 0 auto;
+    width: calc(100% - 40px);
   }
 }

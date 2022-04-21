@@ -70,7 +70,11 @@
 /* Tablet Portrait */
 @media screen and (max-width: 1023px) {
   .work__title-text {
-    margin: 14px 0px 15px;
+    margin: 27px 0px 15px;
+  }
+
+  .work__container {
+    margin-top: 0;
   }
 
   .work__item {
