@@ -15,11 +15,11 @@
 - Used media queries for popular screen size
 # FOLDER STRUCTURE
 ```
-|-- src
-    |-- assets
-        |-- fonts
-        |-- images
-    |-- css
+|-- src/
+    |-- assets/
+        |-- fonts/
+        |-- images/
+    |-- css/
         |-- commons
         |-- component
         |-- global.css
