@@ -8,7 +8,7 @@
 .contact__title-text {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 22px;
+  font-size: var(--font-size-xlg);
   text-align: center;
   padding: 43px;
   color: var(--light-black);
@@ -17,7 +17,7 @@
 .contact__request {
   font-family: "Roboto";
   text-align: center;
-  font-size: 18px;
+  font-size: var(--font-size-lg);
   font-weight: 300;
   color: var(--dim-gray);
 }
@@ -30,14 +30,14 @@
 
 .contact__text {
   font-family: "Roboto";
-  font-size: 14px;
+  font-size: var(--font-size-xmd);
   border: 1px solid var(--light-gray);
   padding: 14px 160px 10px 15px;
   border-radius: 3px;
 }
 
 .btn.btn-contact {
-  font-size: 14px;
+  font-size: var(--font-size-xmd);
   padding: 12px 45px;
   background-color: var(--red);
   border: 2px solid var(--red);
