@@ -1,13 +1,12 @@
 {
   "name": "practice-two",
   "source": "src/index.html",
-  
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "author": "thaolyy",
   "devDependencies": {
-    "parcel": "latest"
+    "parcel": "^2.5.0"
   }
 }
