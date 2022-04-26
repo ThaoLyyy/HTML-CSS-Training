@@ -41,7 +41,7 @@
 # SUPPORTED BROWSER
 - Google Chrome
 - Microsoft Edge
-- Mozilla Firefox
+- Safari
     
 # EDITOR
 - Using tools Visual Studio Code
@@ -91,6 +91,8 @@ npm start
 ```
 ~http://localhost:1234~
 ```
+## OPEN PROJECT
+   [practice-two](https://thaoly-html-css-practice-two.herokuapp.com/)
 
 ## AUTHOR
 - Thao Ly
