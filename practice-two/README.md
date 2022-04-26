@@ -41,7 +41,6 @@
 # SUPPORTED BROWSER
 - Google Chrome
 - Microsoft Edge
-- Safari
     
 # EDITOR
 - Using tools Visual Studio Code
