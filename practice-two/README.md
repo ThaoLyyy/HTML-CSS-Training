@@ -90,8 +90,8 @@ npm start
 ```
 ~http://localhost:1234~
 ```
-## OPEN PROJECT
-   [practice-two](https://thaoly-html-css-practice-two.herokuapp.com/)
+## WEBSITE
+   [Link](https://thaoly-html-css-practice-two.herokuapp.com/)
 
 ## AUTHOR
 - Thao Ly
