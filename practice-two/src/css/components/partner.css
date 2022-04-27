@@ -11,7 +11,7 @@
   font-size: var(--font-size-2xlg);
   text-align: center;
   margin: 80px 0px 34px;
-  color: var(--light-black);
+  color: var(---gray-400);
 }
 
 .partners__container {
@@ -98,7 +98,7 @@
 .partners__content-info-desc {
   font-family: Roboto;
   font-weight: 300;
-  color: var(--dim-gray);
+  color: var(--gray-300);
   font-size: var(--font-size-xmd);
   line-height: 14px;
   margin: 0 10px 50px;
