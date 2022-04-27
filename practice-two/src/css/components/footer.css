@@ -42,7 +42,7 @@
   text-transform: capitalize;
   text-decoration: none;
   font-weight: 300;
-  color: var(---gray-200);
+  color: var(--gray-200);
   display: block;
   transition: all 0.3s ease;
 }
