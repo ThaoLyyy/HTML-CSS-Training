@@ -89,7 +89,7 @@
   font-family: Roboto;
   margin: 35px auto 47px;
   font-size: var(--font-size-2xl);
-  color: var(--pale-white);
+  color: var(--white-200);
   font-weight: 300;
   letter-spacing: 1px;
 }
