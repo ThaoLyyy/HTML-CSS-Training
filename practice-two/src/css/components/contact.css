@@ -11,7 +11,7 @@
   font-size: var(--font-size-xlg);
   text-align: center;
   padding: 43px;
-  color: var(--light-black);
+  color: var(--gray-400);
 }
 
 .contact__request {
@@ -19,7 +19,7 @@
   text-align: center;
   font-size: var(--font-size-lg);
   font-weight: 300;
-  color: var(--dim-gray);
+  color: var(--gray-300);
 }
 
 .contact__form {
@@ -31,7 +31,7 @@
 .contact__text {
   font-family: "Roboto";
   font-size: var(--font-size-xmd);
-  border: 1px solid var(--light-gray);
+  border: 1px solid var(--gray-100);
   padding: 14px 160px 10px 15px;
   border-radius: 3px;
 }
