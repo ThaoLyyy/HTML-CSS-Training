@@ -22,7 +22,7 @@
 .footer__title {
   position: relative;
   margin-bottom: 11px;
-  color: var(--title);
+  color: var(--gray-400);
   font-size: var(--font-size-xmd);
   text-transform: capitalize;
   font-weight: 700;
@@ -42,13 +42,13 @@
   text-transform: capitalize;
   text-decoration: none;
   font-weight: 300;
-  color: var(--dark-gray);
+  color: var(---gray-200);
   display: block;
   transition: all 0.3s ease;
 }
 
 .footer__menu .footer__list .footer__item .footer__item-link:hover {
-  color: var(--light-black);
+  color: var(--gray-400);
 }
 
 .footer__menu .footer__list {
