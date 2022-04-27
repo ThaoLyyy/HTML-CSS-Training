@@ -41,6 +41,7 @@
 # SUPPORTED BROWSER
 - Google Chrome
 - Microsoft Edge
+- Cốc Cốc
     
 # EDITOR
 - Using tools Visual Studio Code
